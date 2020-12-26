@@ -1,0 +1,173 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* Header content */
+
+@media (max-width: 720px) {
+    .menu {
+        flex-direction: column;
+        align-items: center;
+    }
+    #mainTitle {
+        font-size: 15px;
+        margin-left: 100px;
+    }
+
+    .livet {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 1000px) {
+    #mainTitle {
+        font-size: 30px;
+    }
+}
+
+html {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background-image: url(./img.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    min-height: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    object-fit: contain;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.538);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+header h1 {
+    color: white;
+    font-size: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+main {
+    flex-grow: 1;
+    margin-bottom: 50px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.538);
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    margin-right: 30px;
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+a:hover {
+    color: white;
+    background-color: rgba(255, 0, 0, 0.312);
+}
+
+/* Main content */
+
+.headline {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 650px;
+    margin-top: 10%;
+    font-size: 30px;
+}
+
+h1 {
+    color: white;
+    border: solid 3px white;
+    padding: 20px;
+}
+
+.livet {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: rgba(0, 0, 0, 0.155);
+}
+
+.item {
+    flex: 1 0 0px;
+    color: rgb(255, 255, 255);
+
+    font-size: 20px;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding: 20px;
+
+    box-sizing: border-box;
+}
+
+.list {
+    background-color: rgba(0, 0, 0, 0.12);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+}
+
+.listOne {
+    color: white;
+    padding: 20px;
+}
+
+.listTwo {
+    color: white;
+}
+
+dt {
+    text-decoration: underline;
+}
+
+
+
+/* Footer content */
+
+footer {
+    background-color: rgba(0, 0, 0, 0.538);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
