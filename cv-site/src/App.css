@@ -1,0 +1,8 @@
+body {
+  margin: 0;
+  width: 100%;
+  background-image: url(./assets/IMG.JPG);
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 100%;;
+}
